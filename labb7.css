@@ -1,0 +1,16 @@
+
+    body {background-color: lightblue;
+    }
+    
+
+    main {
+        grid-area: main;
+        display: grid;
+        grid-template-areas: 
+            "section aside";
+
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    
